@@ -25,7 +25,6 @@ GameManager.prototype.autoplay = function () {
     var self = this;
     setInterval(function(){
        self.moveICI();
-     }
     }, 1000);
      
 };
